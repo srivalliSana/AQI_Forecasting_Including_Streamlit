@@ -11,7 +11,7 @@ with gzip.open("aqi_preediction_.pkl.gz", "rb") as f:
     model = joblib.load(f)
 
 # Load dataset
-df = pd.read_csv("C://Users//USER//Downloads//folder//city_day.csv")  # Replace with actual path
+df = pd.read_csv("city_day.csv")  # Replace with actual path
 
 st.title("\U0001F32B️ Air Quality Monitoring & AQI Bucket Prediction")
 
